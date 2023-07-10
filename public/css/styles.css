@@ -1,0 +1,291 @@
+body{
+  background-color: #F8F8F8;
+  font-family: roboto;
+  margin: auto;
+  text-align: center;
+}
+
+.login-form, .contenedor{
+  width:  300px;
+  margin: 0 auto;
+}
+
+.login-form h1 {
+  text-align: center;
+  color: #000;
+  font-size: 28px;
+  padding: 70px o 10px 0;
+}
+
+.login-form input[type="password"],
+.login-form input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #f5f5dc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-color: #999999;
+}
+
+/* Estilos boton login*/
+.btn-login{
+  width: 100%;
+  padding: 15px;
+  background-color: #3B83BD;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  font-family: roboto;
+  color: beige;
+}
+
+.btn-login:hover, .btn-login:active{
+  color: #fff;
+  background-color: #1E5080;
+  border-color: #1E5080;
+}
+.btn-login-focus{
+  box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25);
+}
+
+/* Estilos boton registrar*/
+.btn-registrer{
+  width: 100%;
+  padding: 15px;
+  background-color: #78AFAF;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: large;
+  color: beige;
+  margin-top: 10px;
+  /*Para que parezca boton*/
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+}
+
+.btn-registrer:hover, .btn-registrer:active{
+  color: #fff;
+  background-color: #548A8A;
+  border-color: #548A8A;
+}
+.btn-registrer:focus{
+  box-shadow: 0 0 0 3px #548A8A;
+}
+
+/*Link para login*/
+.a-login:link, .a-login:visited {
+  background-color: white;
+  color: #000;
+  border: 2px solid #10b981;
+  padding: 10px 20px;
+}
+
+  /* Registro de usuario*/
+.registrer-form{
+  width: 400px;
+  margin: 0 auto;
+  padding: 0px 20px 60px 20px;
+  margin-top: 35px;
+  font-family: roboto;
+  text-align: left !important;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.registrer-form h1 {
+  text-align: center;
+  color: #000;
+  font-size: 28px;
+  padding: 70px o 10px 0;
+}
+
+.registrer-form input[type="password"],
+.registrer-form input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #f5f5dc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-color: #999999;
+}
+
+/* Estilos boton guardar*/
+.btn-save{
+  width: 50%;
+  padding: 15px;
+  background-color: #3B83BD;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  font-family: roboto;
+  color: beige;
+}
+
+.btn-save:hover, .btn-save:active{
+  color: #fff;
+  background-color: #1E5080;
+  border-color: #1E5080;
+}
+.btn-save-focus{
+  box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25);
+}
+
+/* Estilos boton Cancelar*/
+.bnt-cancel{
+  width: 50%;
+  padding: 15px;
+  background-color: #78AFAF;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  font-family: roboto;
+  text-align: center;
+  color: beige;
+  /*Para que parezca boton*/
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+}
+
+.bnt-cancel:hover, .bnt-cancel:active{
+  color: #fff;
+  background-color: #548A8A;
+  border-color: #548A8A;
+}
+.bnt-cancel:focus{
+  box-shadow: 0 0 0 3px #548A8A;
+}
+
+/*Estilos select*/
+.select-css {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  padding: .4em 1.4em .3em .8em;
+  width: 400px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #F5F5F5;
+}
+
+.select-css::-ms-expand{
+  display: none;
+}
+
+.select-css:hover {
+  border-color: #888;
+
+}
+
+.select-css:focus{
+  border-color: #aaa;
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222;
+
+}
+
+.select-css option{
+  font-weight: normal;
+}
+
+/*A logout*/
+.a-logout{
+  width: 150px;
+  padding: 15px;
+  background-color: #FF8C8C;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  font-family: roboto;
+  text-align: center;
+  color: beige;
+  /*Para que parezca boton*/
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+}
+
+.a-logout:hover, .a-logout:active{
+  
+  background-color: #FF5959;
+  border-color: #FF5959;
+}
+.a-logout:focus{
+  box-shadow: 0 0 0 3px #FF5959;
+}
+
+/*A login*/
+.a-login{
+  width: 150px;
+  padding: 15px;
+  background-color: #78AFAF;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  font-family: roboto;
+  text-align: center;
+  color: beige;
+  /*Para que parezca boton*/
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+}
+
+.a-login:hover, .a-login:active{
+  
+  background-color: #548A8A;
+  border-color: #548A8A;
+}
+.a-login:focus{
+  box-shadow: 0 0 0 3px #548A8A;
+}
+
+/* Estilos para la tabla */
+#tablaArticulos {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+#tablaArticulos th,
+#tablaArticulos td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Estilos para las filas alternas */
+#tablaArticulos tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para los encabezados */
+#tablaArticulos thead th {
+  background-color: #333;
+  color: white;
+}
+
+.habitaciones{
+  max-width: 600px;
+  margin: 0 auto;
+}

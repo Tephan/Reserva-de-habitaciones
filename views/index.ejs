@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inicio de sesión - Hotel App</title>
+  <script async type="text/javascript" src="./src/bd.js"></script>
+  <script async type="text/javascript" src="/public/js/script.js"></script>
+  <link rel="stylesheet" href="resources/css/styles.css">
+</head>
+<body>
+  
+
+  <% if (login) { %>
+    <h1>El usuario conectado es: <strong><%= name %></strong></h1>
+    <a href="logout" class="a-logout">Cerrar sesión</a>
+    <h1>Habitaciones</h1>
+    <div class="habitaciones">
+      <table id="tablaHabitaciones" class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Tipo de habitación</th>
+                <th>Precio</th>
+                <th>Vista al</th>
+                <th class="text-center">ACCIONES</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    </div>
+    <% } else { %>
+      <h1><strong><%= name %></strong></h1>
+      <a href="login" class="a-login">Iniciar sesión</a>
+    <% } %>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap5.min.js"></script>
+    <script src="../app.js"></script>
+  </body>
+</html>
